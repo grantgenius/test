@@ -4,7 +4,7 @@ require "dbconn/pdo.php";
 require "function.php";
 $name = $_POST['name'];
 $email  = $_POST['email'];
-$phone  = $_POST['number'];
+$phone  = $_POST['phone'];
 
 
 if (trim(strlen($name) <= 3)){
